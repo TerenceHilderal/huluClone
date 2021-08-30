@@ -1,6 +1,10 @@
 /* eslint-disable react/display-name */
 import Image from 'next/image';
-import { ThumbUpIcon, ChartBarIcon } from '@heroicons/react/outline';
+import {
+	ThumbUpIcon,
+	ChartBarIcon,
+	InformationCircleIcon,
+} from '@heroicons/react/outline';
 import { forwardRef } from 'react';
 
 const Thumbnail = forwardRef(({ result }, ref) => {
